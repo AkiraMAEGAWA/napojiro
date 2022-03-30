@@ -10,8 +10,7 @@ app.listen(port, () => {
 app.post("/nyaon", (req, res) => {
     
     const deviceController = require("./notifyController")
-    // const googleHomeIP = process.env.LOCAL_GOOGLEHOME_HOST
-    const googleHomeIP = "192.168.3.6"
+    const googleHomeIP = process.env.PUBLIC_NEXT_LOCAL_GOOGLEHOME_HOST
     deviceController.ondeviceup(googleHomeIP)
 
     res.setHeader('Access-Control-Allow-Origin', '*')
