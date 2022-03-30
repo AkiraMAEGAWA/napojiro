@@ -1,4 +1,5 @@
 import Cat from "./cat"
+import SoCute from "./cute"
 import Nyan from "./nyan"
 
 const CutyCat = () => {
@@ -10,6 +11,7 @@ const CutyCat = () => {
     return <div>
         <Cat imgSrcPath={imgSrcPath} />
         <Nyan audioSrcPath={audioSrcPath} mimeType={mimeType} />
+        <SoCute />
     </div>
 }
 
