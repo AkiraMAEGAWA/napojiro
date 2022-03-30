@@ -33,3 +33,8 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+
+# notifyServer
+/notifyServer/node_modules
+/notifyServer/bin/*
