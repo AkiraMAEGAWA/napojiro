@@ -1,7 +1,7 @@
 const SoCute = () => {
 
     const clickHandler = async () => {
-        const localGoogleHomeNotifier = `${process.env.LOCAL_SERVER_HOST}/nyaon`;
+        const localGoogleHomeNotifier = `${process.env.NEXT_PUBLIC_LOCAL_SERVER_HOST}/nyaon`;
         try {
             const _ = await fetch(localGoogleHomeNotifier, {
                 method: 'POST',
