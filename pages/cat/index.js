@@ -1,6 +1,6 @@
-import Cat from "./cat"
-import SoCute from "./cute"
-import Nyan from "./nyan"
+import Cat from "../../uiParts/cat/cat"
+import SoCute from "../../uiParts/cat/cute"
+import Nyan from "../../uiParts/cat/nyan"
 
 const CutyCat = () => {
 

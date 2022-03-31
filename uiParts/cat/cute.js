@@ -12,7 +12,11 @@ const SoCute = () => {
         }
     }
     
-    return <button onClick={clickHandler}>かわいいにゃー！</button>
+    return  ( <>
+      <button onClick={clickHandler}>かわいいにゃー！</button>
+      <image src="/catPuniHand.jpg" ></image>
+    </>
+    )
 }
 
 export default SoCute
