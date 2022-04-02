@@ -15,9 +15,6 @@ const Cat = ({ imgSrcPath }) => {
         height={512}
         className={imageStyle}
       />
-      <div>
-        <div>s</div>
-      </div>
     </>
   );
 };
