@@ -1,6 +1,6 @@
-import Cat from "../../components/cat/cat";
-import SoCute from "../../components/cat/cute";
-import Nyan from "../../components/cat/nyan";
+import Cat from "../../cat/cat";
+import SoCute from "../../cat/cute";
+import Nyan from "../../cat/nyan";
 
 import cxs from "cxs";
 
