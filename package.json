@@ -9,13 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "cxs": "^6.2.0",
     "next": "12.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "sharp": "^0.30.3"
   },
   "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/react": "^17.0.43",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
     "eslint": "8.11.0",
-    "eslint-config-next": "12.1.0"
+    "eslint-config-next": "12.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "2.6.1",
+    "typescript": "^4.6.3"
   }
 }
