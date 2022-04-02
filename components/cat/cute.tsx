@@ -17,7 +17,7 @@ const SoCute = () => {
     <>
       <button onClick={clickHandler}>かわいいにゃー！</button>
       <Image
-        src="/cat-puni-hand.jpg"
+        src="/cat_puni_hand.jpg"
         alt="肉球のアイコン"
         width={16}
         height={16}
